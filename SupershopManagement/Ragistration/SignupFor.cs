@@ -17,9 +17,32 @@ namespace SupershopManagement.Ragistration
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+       
+
+        private void label3_Click(object sender, EventArgs e)
         {
-            if(radioButton1.Checked==true)
+            Application.Exit();
+        }
+
+       
+        private void SignupFor_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked == true)
             {
                 this.Hide();
                 CustomerRegistration customerRegistration = new CustomerRegistration();
@@ -31,17 +54,6 @@ namespace SupershopManagement.Ragistration
                 EmployeRegistration employeRegistration = new EmployeRegistration();
                 employeRegistration.Show();
             }
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-       
-        private void SignupFor_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

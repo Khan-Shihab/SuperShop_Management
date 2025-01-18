@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SupershopManagement.login
+namespace SupershopManagement.dashBoard
 {
-    public partial class Castomer : Form
+    public partial class Customer_Dashboard : Form
     {
-        public Castomer()
+        public Customer_Dashboard()
         {
             InitializeComponent();
         }

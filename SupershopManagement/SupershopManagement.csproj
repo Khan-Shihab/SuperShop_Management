@@ -89,11 +89,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="login\Castomer.cs">
+    <Compile Include="dashBoard\Customer Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="login\Castomer.Designer.cs">
-      <DependentUpon>Castomer.cs</DependentUpon>
+    <Compile Include="dashBoard\Customer Dashboard.Designer.cs">
+      <DependentUpon>Customer Dashboard.cs</DependentUpon>
     </Compile>
     <Compile Include="login\LoginPage.cs">
       <SubType>Form</SubType>
@@ -133,8 +133,8 @@
     <Compile Include="WelcomeModel\loading_page.Designer.cs">
       <DependentUpon>loading_page.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="login\Castomer.resx">
-      <DependentUpon>Castomer.cs</DependentUpon>
+    <EmbeddedResource Include="dashBoard\Customer Dashboard.resx">
+      <DependentUpon>Customer Dashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login\LoginPage.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>
@@ -184,5 +184,6 @@
   <ItemGroup>
     <None Include="Resources\WhatsApp Image 2025-01-16 at 00.21.39_d1b24996.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
