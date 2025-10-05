@@ -29,11 +29,16 @@ namespace SupershopManagement.WelcomeModel
             if (progressBar1.Value == 100)
             {
                 s = 0;
-                timer1.Enabled = false;      
+                timer1.Enabled = false;
                 this.Hide();
                 FormHomePage formHomePage = new FormHomePage();
                 formHomePage.Show();
             }
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

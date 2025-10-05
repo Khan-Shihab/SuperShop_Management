@@ -1,4 +1,7 @@
-﻿using SupershopManagement.WelcomeModel;
+﻿using SupershopManagement.dashBoard;
+using SupershopManagement.login;
+using SupershopManagement.Ragistration;
+using SupershopManagement.WelcomeModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +19,7 @@ namespace SupershopManagement
         static void Main()
         {
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
+            Application.SetCompatibleTextRenderingDefault(false);//
             Application.Run(new loading_page());
         }
     }

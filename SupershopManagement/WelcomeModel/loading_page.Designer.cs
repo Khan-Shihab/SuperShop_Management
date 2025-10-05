@@ -41,7 +41,7 @@
             // 
             this.progressBar1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.progressBar1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.progressBar1.Location = new System.Drawing.Point(-1, 333);
+            this.progressBar1.Location = new System.Drawing.Point(0, 335);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(665, 16);
             this.progressBar1.TabIndex = 0;
@@ -71,23 +71,23 @@
             this.label2.Size = new System.Drawing.Size(47, 31);
             this.label2.TabIndex = 2;
             this.label2.Text = "0%";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(48)))), ((int)(((byte)(78)))));
-            this.pictureBox1.Image = global::SupershopManagement.Properties.Resources.WhatsApp_Image_2025_01_16_at_00_21_39_d1b24996;
-            this.pictureBox1.Location = new System.Drawing.Point(170, 68);
+            this.pictureBox1.Image = global::SupershopManagement.Properties.Resources.supermarket;
+            this.pictureBox1.Location = new System.Drawing.Point(224, 74);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(318, 166);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.Size = new System.Drawing.Size(193, 168);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // loading_page
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(48)))), ((int)(((byte)(78)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(56)))), ((int)(((byte)(79)))));
             this.ClientSize = new System.Drawing.Size(664, 348);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);

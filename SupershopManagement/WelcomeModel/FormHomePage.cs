@@ -19,6 +19,7 @@ namespace SupershopManagement.WelcomeModel
         {
             InitializeComponent();
         }
+        
         int len=-1;
         string text;
 
@@ -42,7 +43,7 @@ namespace SupershopManagement.WelcomeModel
             timer1.Start();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)//signup
         {
             this.Hide();
             SignupFor signupFor = new SignupFor();
@@ -59,11 +60,16 @@ namespace SupershopManagement.WelcomeModel
             System.Windows.Forms.Application.Exit();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)//login_btn
         {
             this.Hide();
             LoginPage loginPage = new LoginPage();
             loginPage.Show();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

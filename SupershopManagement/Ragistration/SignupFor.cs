@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SupershopManagement.WelcomeModel;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -42,7 +43,7 @@ namespace SupershopManagement.Ragistration
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            if (radioButton1.Checked == true)
+            if (radioButton.Checked == true)
             {
                 this.Hide();
                 CustomerRegistration customerRegistration = new CustomerRegistration();
@@ -54,6 +55,24 @@ namespace SupershopManagement.Ragistration
                 EmployeRegistration employeRegistration = new EmployeRegistration();
                 employeRegistration.Show();
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+       
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new FormHomePage().Show();
         }
     }
 }
